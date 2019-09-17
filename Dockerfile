@@ -4,7 +4,7 @@
 # basics without all the fat.
 #
 
-FROM alpine:3.9
+FROM alpine:3.10.2
 LABEL maintainer="Atif Mahmood <atif.1996@gmail.com>"
 
 RUN apk add --no-cache make curl git coreutils && \
